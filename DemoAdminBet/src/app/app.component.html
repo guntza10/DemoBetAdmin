@@ -1,0 +1,43 @@
+<div class="wrapper">
+
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h3>Header Sidebar</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a data-toggle="collapse" data-target="#userSubMenu" aria-expanded="false">User</a>
+                <ul id="userSubMenu" class="collapse navbar-collapse list-unstyled">
+                    <li>
+                        <a routerLink="/user1">User1</a>
+                    </li>
+                    <li>
+                        <a routerLink="/user2">User2</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a data-toggle="collapse" data-target="#reportSubMenu" aria-expanded="false">Report</a>
+                <ul id="reportSubMenu" class="collapse navbar-collapse list-unstyled">
+                    <li>
+                        <a routerLink="/report1">Report1</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a routerLink="/setting">Setting</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div class="navbar navbar-custom">
+            <button id="sidebarToggle" class="iconBtn">
+                <img src="../assets/img/xbox.png">
+            </button>
+        </div>
+    </div>
+
+</div>
